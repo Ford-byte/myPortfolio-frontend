@@ -32,7 +32,7 @@ const message = ref('')
 
 const sendForm = async () => {
     try {
-        const response = await axios.post('http://localhost:3000/sendEmail', {
+        const response = await axios.post('https://myportfolio-backend-nw0q.onrender.com/sendEmail', {
             name: name.value,
             email: email.value,
             subject: subject.value,
