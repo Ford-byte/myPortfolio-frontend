@@ -1,13 +1,13 @@
+<script setup>
+import AboutComponent from '../components/AboutViewComponent.vue'
+import LoaderComponent from '@/components/LoaderComponent.vue';
+</script>
+
 <template>
     <div>
+        <LoaderComponent></LoaderComponent>
         <AboutComponent></AboutComponent>
     </div>
 </template>
 
-<script setup>
-import AboutComponent from '../components/AboutViewComponent.vue'
-</script>
-
-<style lang="scss" scoped>
-
-</style>
+<style lang="scss" scoped></style>
